@@ -5,4 +5,5 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   base:'/three-address-code-generato/',
   plugins: [react()],
+  base: '/three-address-code-generator/',
 })
