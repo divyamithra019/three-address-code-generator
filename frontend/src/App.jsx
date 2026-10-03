@@ -781,7 +781,7 @@ const handleGenerate = async () => {
 
   try {
     const response = await fetch(
-      "http://localhost:8080/api/tac/generate",
+      "https://three-address-code-generator-1.onrender.com/api/tac/generate",
       {
         method: "POST",
         headers: {
